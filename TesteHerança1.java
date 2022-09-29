@@ -5,6 +5,6 @@ public class TesteHerança1{
         AlunoDeGraduacao aluno = new AlunoDeGraduacao();
         aluno.nome = "joão";
         aluno.idade = 17;
-        System.out.printf("nome %s, idade: %d\n", aluno.nome, aluno.idade);
+        System.out.printf("nome: %s, idade: %d\n", aluno.nome, aluno.idade);
     }
 }
